@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: rgb(160, 212, 255);
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 3%;
+    padding-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2em auto;
+    display: inline-block;
+}
+
+th, td {
+    width: 15%;
+}
+
+tr {
+    width: 90%;
+    height: 30px;
+}
+
+th {
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: right;
+}
+
+#h1Head {
+    padding-bottom: 3%;
+}
+
+#empTable {
+    display: inline-block;
+    margin: auto;
+}
+
+#empTable-body {
+    margin: 5%;
+    width: 90%;
+    background-color: white;
+    border: solid black 1px;
+}
+
+#add-emp-button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+#add-emp-button:hover {
+    background-color: white;
+    color: green;
+}
+
+#totalMonth {
+    padding: 0 5% 0 2%;
+}
+
+.totalMonth-under20 {
+    color: chartreuse;
+}
+
+.totalMonth-over20 {
+    color: crimson;
+}
+
+.dlt-emp-button {
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+}
+
+.dlt-emp-button:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.empInput {
+    margin-bottom: 2em;
+}
